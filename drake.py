@@ -23,10 +23,12 @@ album_list8 = ['Scary Hours 2', 'Certified Lover Boy']
 
 album_list9 = ['Honestly, Nevermind', 'For All The Dogs']
 
-album_list9 = ['For All The Dogs Scary Hours Edition', '100 GIGS 3', '100 GIGS', '100 GIGS (Re-Release)']
+album_list10 = ['For All The Dogs Scary Hours Edition', '100 GIGS 3', '100 GIGS', '100 GIGS (Re-Release)']
+
+album_list11 = ['Her Loss']
 
 # Lyrics to album list x
-for album in album_list8:
-    drake = genius.search_album(album, "Drake")
+for album in album_list11:
+    drake = genius.search_album(album, "Drake & 21 Savage")
     song_list = drake.save_lyrics()
 
